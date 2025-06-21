@@ -56,7 +56,7 @@ export const projects: Project[] = [
     id: 1,
     title: 'Veridian Eco-Tower',
     category: 'Sustainable Architecture',
-    images: ['https://firebasestudio.corp.google.com/static/transient/c315eb00-7c52-4467-85da-05047b0a88b5.jpeg', 'https://placehold.co/800x600/a68a64/f5f5dc?text=Side+View', 'https://placehold.co/800x600/6A994E/f5f5dc?text=Interior'],
+    images: ['https://firebasestudio.corp.google.com/static/transient/67a71868-b710-4bc3-ab67-bb897c8d9c1f.png', 'https://placehold.co/800x600/a68a64/f5f5dc?text=Side+View', 'https://placehold.co/800x600/6A994E/f5f5dc?text=Interior'],
     description: 'A mixed-use high-rise concept that integrates vertical gardens, rainwater harvesting, and passive solar design to create a self-sustaining ecosystem in an urban core.',
     role: 'Lead Designer',
     features: [
