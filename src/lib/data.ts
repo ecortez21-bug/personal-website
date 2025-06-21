@@ -1,3 +1,4 @@
+
 export type NavLink = {
   href: string;
   label: string;
@@ -71,7 +72,7 @@ export const projects: Project[] = [
     id: 2,
     title: 'The Ripple Park',
     category: 'Urban Interventions',
-    images: ['https://placehold.co/600x400.png'],
+    images: ['https://i.imgur.com/WI6rbsj.png'],
     description: 'A transformative public space project that repurposed a derelict industrial canal into a vibrant park focused on stormwater management and community engagement.',
     role: 'Urban Strategist & Planner',
     features: [
@@ -86,7 +87,7 @@ export const projects: Project[] = [
     id: 3,
     title: 'Symbiotic Housing',
     category: 'Academic Projects',
-    images: ['https://placehold.co/600x400.png'],
+    images: ['https://i.imgur.com/WI6rbsj.png'],
     description: 'Master\'s thesis project exploring co-living models that integrate shared resources, waste-to-energy systems, and adaptable living units for a circular economy.',
     role: 'Researcher & Designer',
     features: [
@@ -101,7 +102,7 @@ export const projects: Project[] = [
     id: 4,
     title: 'Solar Canopy Market',
     category: 'Sustainable Architecture',
-    images: ['https://placehold.co/600x400.png'],
+    images: ['https://i.imgur.com/WI6rbsj.png'],
     description: 'A community market topped with an expansive photovoltaic canopy, providing clean energy for the neighborhood and a shaded public gathering space.',
     role: 'Project Architect',
     features: [
@@ -116,7 +117,7 @@ export const projects: Project[] = [
     id: 5,
     title: 'Green-Link Corridor',
     category: 'Urban Interventions',
-    images: ['https://placehold.co/600x400.png'],
+    images: ['https://i.imgur.com/WI6rbsj.png'],
     description: 'An urban design initiative to connect disparate green spaces within the city via a network of pedestrian and cycling-friendly pathways, promoting biodiversity and active transport.',
     role: 'Urban Designer',
     features: [
@@ -131,7 +132,7 @@ export const projects: Project[] = [
     id: 6,
     title: 'The Living Classroom',
     category: 'Academic Projects',
-    images: ['https://placehold.co/600x400.png'],
+    images: ['https://i.imgur.com/WI6rbsj.png'],
     description: 'A proposal for a primary school built with natural materials, designed as a teaching tool for sustainability, featuring exposed systems and interactive environmental displays.',
     role: 'Student Project Lead',
     features: [
