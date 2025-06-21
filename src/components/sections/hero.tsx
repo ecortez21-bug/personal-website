@@ -16,7 +16,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-black/50 z-10" />
       <div className="relative z-20 container mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-shadow-lg">
-          Designing Sustainable Futures
+          Innovative urban architecture
         </h1>
         <p className="mt-4 font-headline text-xl md:text-2xl font-bold tracking-tight text-shadow">
             Architecture & Urban Interventions
