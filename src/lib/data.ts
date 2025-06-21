@@ -56,7 +56,7 @@ export const projects: Project[] = [
     id: 1,
     title: 'Veridian Eco-Tower',
     category: 'Sustainable Architecture',
-    images: ['https://placehold.co/800x600/386641/f5f5dc?text=Veridian', 'https://placehold.co/800x600/a68a64/f5f5dc?text=Side+View', 'https://placehold.co/800x600/6A994E/f5f5dc?text=Interior'],
+    images: ['https://firebasestudio.corp.google.com/static/transient/c315eb00-7c52-4467-85da-05047b0a88b5.jpeg', 'https://placehold.co/800x600/a68a64/f5f5dc?text=Side+View', 'https://placehold.co/800x600/6A994E/f5f5dc?text=Interior'],
     description: 'A mixed-use high-rise concept that integrates vertical gardens, rainwater harvesting, and passive solar design to create a self-sustaining ecosystem in an urban core.',
     role: 'Lead Designer',
     features: [
@@ -71,7 +71,7 @@ export const projects: Project[] = [
     id: 2,
     title: 'The Ripple Park',
     category: 'Urban Interventions',
-    images: ['https://placehold.co/800x600/A68A64/333333?text=Ripple+Park', 'https://placehold.co/800x600/8c7a6b/ffffff?text=Community+Space'],
+    images: ['https://firebasestudio.corp.google.com/static/transient/915152a5-da9f-4318-8f86-d28c94e77353.jpeg', 'https://placehold.co/800x600/8c7a6b/ffffff?text=Community+Space'],
     description: 'A transformative public space project that repurposed a derelict industrial canal into a vibrant park focused on stormwater management and community engagement.',
     role: 'Urban Strategist & Planner',
     features: [
@@ -86,7 +86,7 @@ export const projects: Project[] = [
     id: 3,
     title: 'Symbiotic Housing',
     category: 'Academic Projects',
-    images: ['https://placehold.co/800x600/6f6f6f/ffffff?text=Symbiotic+Housing', 'https://placehold.co/800x600/555555/ffffff?text=Model'],
+    images: ['https://firebasestudio.corp.google.com/static/transient/14b301b4-e3ac-41e9-913a-7ed403c9ebac.jpeg', 'https://placehold.co/800x600/555555/ffffff?text=Model'],
     description: 'Master\'s thesis project exploring co-living models that integrate shared resources, waste-to-energy systems, and adaptable living units for a circular economy.',
     role: 'Researcher & Designer',
     features: [
@@ -101,7 +101,7 @@ export const projects: Project[] = [
     id: 4,
     title: 'Solar Canopy Market',
     category: 'Sustainable Architecture',
-    images: ['https://placehold.co/800x600/F2E8CF/386641?text=Solar+Market', 'https://placehold.co/800x600/BC4749/ffffff?text=Energy+Production'],
+    images: ['https://firebasestudio.corp.google.com/static/transient/b4277b73-0f19-48e0-a7d1-e62e08e6f1a8.jpeg', 'https://placehold.co/800x600/BC4749/ffffff?text=Energy+Production'],
     description: 'A community market topped with an expansive photovoltaic canopy, providing clean energy for the neighborhood and a shaded public gathering space.',
     role: 'Project Architect',
     features: [
@@ -116,7 +116,7 @@ export const projects: Project[] = [
     id: 5,
     title: 'Green-Link Corridor',
     category: 'Urban Interventions',
-    images: ['https://placehold.co/800x600/6A994E/ffffff?text=Green-Link', 'https://placehold.co/800x600/a68a64/ffffff?text=Pedestrian+Bridge'],
+    images: ['https://firebasestudio.corp.google.com/static/transient/e8802956-6a2c-4cc0-911e-7b715694c92e.jpeg', 'https://placehold.co/800x600/a68a64/ffffff?text=Pedestrian+Bridge'],
     description: 'An urban design initiative to connect disparate green spaces within the city via a network of pedestrian and cycling-friendly pathways, promoting biodiversity and active transport.',
     role: 'Urban Designer',
     features: [
@@ -131,7 +131,7 @@ export const projects: Project[] = [
     id: 6,
     title: 'The Living Classroom',
     category: 'Academic Projects',
-    images: ['https://placehold.co/800x600/3A5A40/ffffff?text=Living+Classroom'],
+    images: ['https://firebasestudio.corp.google.com/static/transient/51b9d4f0-459f-4a0b-9c29-37ca8d89e4bc.jpeg'],
     description: 'A proposal for a primary school built with natural materials, designed as a teaching tool for sustainability, featuring exposed systems and interactive environmental displays.',
     role: 'Student Project Lead',
     features: [
