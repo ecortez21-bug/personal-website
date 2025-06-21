@@ -12,13 +12,19 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'placehold.co',
+        hostname: '*',
         port: '',
         pathname: '/**',
       },
       {
         protocol: 'https',
         hostname: 'firebasestudio.corp.google.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'imgur.com',
         port: '',
         pathname: '/**',
       },

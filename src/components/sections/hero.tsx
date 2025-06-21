@@ -5,13 +5,13 @@ export default function HeroSection() {
   return (
     <section id="home" className="relative h-screen flex items-center justify-center text-center text-white">
       <Image
-        src="https://firebasestudio.corp.google.com/static/transient/67a329ec-4581-4b7f-b258-c92c81a2da38.jpeg"
-        alt="Nautilus shell illustrating sustainable and natural design principles"
+        src="https://i.imgur.com/6a2jS6p.png"
+        alt="Hero background image of a modern building"
         layout="fill"
         objectFit="cover"
-        quality={80}
         className="z-0"
-        data-ai-hint="nautilus shell"
+        priority
+        data-ai-hint="architecture building"
       />
       <div className="absolute inset-0 bg-black/50 z-10" />
       <div className="relative z-20 container mx-auto px-4 sm:px-6 lg:px-8">
