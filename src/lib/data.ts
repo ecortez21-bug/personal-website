@@ -57,7 +57,7 @@ export const projects: Project[] = [
     id: 1,
     title: 'Veridian Eco-Tower',
     category: 'Sustainable Architecture',
-    images: ['https://i.imgur.com/6a2jS6p.png'],
+    images: ['https://i.imgur.com/m2S4IHD.png'],
     description: 'A mixed-use high-rise concept that integrates vertical gardens, rainwater harvesting, and passive solar design to create a self-sustaining ecosystem in an urban core.',
     role: 'Lead Designer',
     features: [
@@ -87,7 +87,7 @@ export const projects: Project[] = [
     id: 3,
     title: 'Symbiotic Housing',
     category: 'Academic Projects',
-    images: ['https://i.imgur.com/WI6rbsj.png'],
+    images: ['https://i.imgur.com/tZ3bE1g.jpeg'],
     description: 'Master\'s thesis project exploring co-living models that integrate shared resources, waste-to-energy systems, and adaptable living units for a circular economy.',
     role: 'Researcher & Designer',
     features: [
