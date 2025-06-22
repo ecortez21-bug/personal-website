@@ -12,7 +12,7 @@ export default function AboutSection() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-0">
             <div className="md:col-span-1 flex items-center justify-center p-8 bg-muted/50">
               <Image
-                src="https://i.imgur.com/7Z1o2hA.jpeg"
+                src="https://i.imgur.com/oPInHAs.jpeg"
                 alt="Eduardo Cortez Headshot"
                 width={250}
                 height={250}
