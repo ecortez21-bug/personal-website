@@ -5,13 +5,13 @@ export default function HeroSection() {
   return (
     <section id="home" className="relative h-screen flex items-center justify-center text-center text-white">
       <Image
-        src="https://i.imgur.com/6a2jS6p.png"
-        alt="Hero background image of a modern building"
+        src="https://i.imgur.com/yFAPaXD.png"
+        alt="Hero background image"
         layout="fill"
         objectFit="cover"
         className="z-0"
         priority
-        data-ai-hint="architecture building"
+        data-ai-hint="portrait professional"
       />
       <div className="absolute inset-0 bg-black/50 z-10" />
       <div className="relative z-20 container mx-auto px-4 sm:px-6 lg:px-8">
