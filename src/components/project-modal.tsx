@@ -32,8 +32,8 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
           <Image
             src={project.images[currentImageIndex]}
             alt={`${project.title} - Image ${currentImageIndex + 1}`}
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: 'cover' }}
             data-ai-hint="architecture interior"
           />
           {project.images.length > 1 && (

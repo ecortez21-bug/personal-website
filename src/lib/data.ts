@@ -113,7 +113,7 @@ export const projects: Project[] = [
     ],
     location: "Sunfield, USA"
   },
-    {
+  {
     id: 5,
     title: 'Green-Link Corridor',
     category: 'Urban Interventions',
