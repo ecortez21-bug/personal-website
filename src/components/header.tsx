@@ -8,11 +8,15 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { useScrollSpy } from '@/hooks/use-scroll-spy';
 import { navLinks } from '@/lib/data';
 import { cn } from '@/lib/utils';
+import { usePathname } from 'next/navigation';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const sectionIds = ['home', 'about', 'portfolio', 'resume', 'contact'];
+  const pathname = usePathname();
+  const isMusicPage = pathname === '/music';
+
+  const sectionIds = isMusicPage ? [] : ['home', 'about', 'portfolio', 'resume', 'contact'];
   const activeSection = useScrollSpy(sectionIds, { offset: 150 });
 
   useEffect(() => {
@@ -25,32 +29,35 @@ export default function Header() {
 
   const headerClasses = cn(
     "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-    isScrolled ? "bg-background/80 backdrop-blur-sm shadow-md" : "bg-transparent"
+    isScrolled || isMusicPage ? "bg-background/80 backdrop-blur-sm shadow-md" : "bg-transparent"
   );
 
   const NavLinks = ({ isMobile = false }: { isMobile?: boolean }) => (
     <nav className={cn("flex items-center", isMobile ? "flex-col space-y-4" : "hidden md:flex md:space-x-8")}>
-      {navLinks.map((link) => (
-        <a
-          key={link.href}
-          href={link.href}
-          onClick={() => isMobile && setIsMobileMenuOpen(false)}
-          className={cn(
-            "text-lg transition-colors hover:text-primary",
-            activeSection === link.href.substring(1) ? "text-primary font-bold" : "text-foreground/80",
-            isMobile && "text-2xl"
-          )}
-        >
-          {link.label}
-        </a>
-      ))}
+      {navLinks.map((link) => {
+        const isActive = isMusicPage ? link.href === '/music' : activeSection === link.href.substring(1);
+        return (
+          <a
+            key={link.href}
+            href={link.href}
+            onClick={() => isMobile && setIsMobileMenuOpen(false)}
+            className={cn(
+              "text-lg transition-colors hover:text-primary",
+              isActive ? "text-primary font-bold" : "text-foreground/80",
+              isMobile && "text-2xl"
+            )}
+          >
+            {link.label}
+          </a>
+        );
+      })}
     </nav>
   );
 
   return (
     <header className={headerClasses}>
       <div className="container mx-auto flex h-20 items-center justify-between px-4 sm:px-6 lg:px-8">
-        <a href="#home" className="text-2xl font-bold tracking-tight text-primary transition-transform hover:scale-105">
+        <a href={isMusicPage ? "/" : "#home"} className="text-2xl font-bold tracking-tight text-primary transition-transform hover:scale-105">
           Eduardo Cortez
         </a>
         

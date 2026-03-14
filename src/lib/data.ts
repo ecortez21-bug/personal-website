@@ -37,6 +37,7 @@ export type Education = {
 export const navLinks: NavLink[] = [
   { href: '#about', label: 'About' },
   { href: '#portfolio', label: 'Portfolio' },
+  { href: '/music', label: 'Music' },
   { href: '#resume', label: 'Resume' },
   { href: '#contact', label: 'Contact' },
 ];
