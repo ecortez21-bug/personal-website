@@ -20,9 +20,8 @@ export default function ProjectCard({ project, onSelectProject }: ProjectCardPro
           <Image
             src={project.images[0]}
             alt={project.title}
-            layout="fill"
-            objectFit="cover"
-            className="transition-transform duration-300 group-hover:scale-110"
+            fill
+            className="object-cover transition-transform duration-300 group-hover:scale-110"
             data-ai-hint="architecture design"
           />
         </div>

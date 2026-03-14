@@ -7,9 +7,8 @@ export default function HeroSection() {
       <Image
         src="https://i.imgur.com/mkGuKYc.jpeg"
         alt="Hero background image"
-        layout="fill"
-        objectFit="cover"
-        className="z-0"
+        fill
+        className="z-0 object-cover"
         priority
         data-ai-hint="modern architecture"
       />
