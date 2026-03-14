@@ -81,4 +81,13 @@ export const favoriteMusic: Music[] = [
     genre: 'Rock',
     albumArt: 'https://picsum.photos/seed/music8/600/600',
   },
+  {
+    id: 9,
+    title: 'Boulevard of Broken Dreams',
+    artist: 'Green Day',
+    album: 'American Idiot',
+    year: 2004,
+    genre: 'Alternative Rock',
+    albumArt: 'https://picsum.photos/seed/music9/600/600',
+  },
 ];
